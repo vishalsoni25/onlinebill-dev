@@ -1,0 +1,121 @@
+
+@import url(https://fonts.googleapis.com/css?family=PT+Sans);
+body{
+    font-family: 'PT Sans', sans-serif;
+    font-size: 15px;
+    line-height: 1.5;   
+}
+div.c {
+  text-align: right;
+}
+.container{
+    width: 751px;
+}
+.header{
+    border-bottom: 2px solid #bacf4d;
+    text-align: right;
+    padding-right: 15px;
+}
+.section{
+    border-bottom: 2px solid #bacf4d;
+}
+.section h1{
+    font-weight: bold;
+    margin-bottom: 0px;
+}
+.section h4{
+    background-color: #bacf4d;
+    padding: 7px 15px;
+    margin-bottom: 0px;
+    font-weight: bold;
+}
+
+.section>div.col-xs-4>ul{
+    padding: 5px 15px;
+    background-color: #e7e8e9;
+    margin-bottom: 15px;
+}
+.section>div.col-xs-8>ul{
+    padding: 20px 15px;
+    text-align: right;
+}
+
+.content{
+    padding-top: 21px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-bottom: 7px solid #bacf4d;
+}
+
+
+.footer{
+    margin: 15px 0px;
+}
+.footer>.col-xs-4{
+    font-weight: bold;
+    text-align: right;
+}
+.footer>.col-xs-3 ul>li{
+    background-color: #e7e8e9;
+    border-bottom: 3px solid white;
+    padding-right: 15px;
+}
+.footer>.col-xs-3 ul{
+    padding-right: 2px;
+}
+.footer>.col-xs-3{
+    text-align: right;
+    padding: 0px;
+}
+.footer2 h3{
+    color: #bacf4d;
+    font-weight: bold;
+}
+.footer2 form{
+    text-align: center;
+    padding: 15px;
+}
+@media print
+{    
+  
+  html { background: none; padding: 0; }
+	body { box-shadow: none; margin: 0; }
+    .no-print, .no-print *
+    {
+        display: none !important;
+    }
+}
+#testsize {
+  font-size:8px;
+}
+
+table.inventory { clear: both; width: 100%; }
+table.inventory th { font-weight: bold; text-align: center; }
+
+table.inventory td:nth-child(1) { width: 26%; }
+table.inventory td:nth-child(2) { width: 38%; }
+table.inventory td:nth-child(3) { text-align: right; width: 12%; }
+table.inventory td:nth-child(4) { text-align: right; width: 12%; }
+table.inventory td:nth-child(5) { text-align: right; width: 12%; }
+
+
+table { font-size: 75%; table-layout: fixed; width: 100%; }
+table { border-collapse: separate; border-spacing: 2px; }
+th, td { border-width: 1px; padding: 0.5em; position: relative; text-align: left; }
+th, td { border-radius: 0.25em; border-style: solid; }
+th { background: #EEE; border-color: #BBB; }
+td { border-color: #DDD; }
+
+
+
+/* table meta & balance */
+
+table.meta, table.balance { float: right; width: 36%; }
+table.meta:after, table.balance:after { clear: both; content: ""; display: table; }
+
+/* table meta */
+
+table.meta th { width: 40%; }
+table.meta td { width: 60%; }
+
+
